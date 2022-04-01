@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
+      /* provider helps us to directly use the class model of a specific widget*/
       providers: [
         ChangeNotifierProvider(
           create: (ctx) => Auth(),
